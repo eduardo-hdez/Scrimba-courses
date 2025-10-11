@@ -1,0 +1,71 @@
+.chapel-background {
+  background: url(./images/celaya_iglesia.jpg);
+  background-size: cover;
+  display: flex;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-title {
+  margin-bottom: 15px;
+  padding: 8px 15px;
+
+  border-radius: 20px;
+  border: 2px solid #000;
+  background: #756a5b;
+
+  color: #fff;
+  text-align: center;
+  font-family: "Instrument Serif";
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero-description {
+  margin-top: 0px;
+  padding: 8px 15px;
+
+  border-radius: 15px;
+  border: 2px solid #000;
+  background: #e89968;
+
+  color: #fff;
+  text-align: center;
+  font-family: "Instrument Serif";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.underline {
+  color: #fff;
+  font-family: "Instrument Serif";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+body {
+  margin: 0;
+}
