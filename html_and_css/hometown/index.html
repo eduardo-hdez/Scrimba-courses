@@ -9,11 +9,22 @@
       href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Instrument+Serif:ital@0;1&family=Orbitron:wght@400..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Instrument+Serif:ital@0;1&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Hometown</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="hero" class="chapel-background">
+    <div
+      id="hero"
+      class="chapel-background"
+      role="image"
+      aria-label="Chapel of the Immaculate Conception in Celaya, Mexico"
+    >
       <div class="hero-text">
         <h1 class="hero-title">Get to know Celaya</h1>
         <h3 class="hero-description">
@@ -21,6 +32,58 @@
           city
           <span class="underline">unique.</span>
         </h3>
+      </div>
+    </div>
+    <div id="activities">
+      <div class="activity-card">
+        <img
+          class="activity-image-circle"
+          src="./images/bola_de_agua.jpg"
+          alt="A photo taken of the Ball of Water in Celaya, Mexico."
+        />
+        <div class="activity-text">
+          <h2>Celaya's "Ball of Water"</h2>
+          <h3>Iconic 1908 water tower recognized as a city symbol.</h3>
+        </div>
+      </div>
+      <div class="activity-card">
+        <img
+          class="activity-image-circle"
+          src="./images/cajeta.jpg"
+          alt="Bottles of Cajeta put next to each other in front of a chapel and Celaya's Ball of Water."
+        />
+        <div class="activity-text">
+          <h2>Delicious "Cajeta"</h2>
+          <h3>Traditional caramelized “dulce de leche” since the 1900's</h3>
+        </div>
+      </div>
+      <div class="activity-card">
+        <img
+          class="activity-image-circle"
+          src="./images/parque_xochipilli.jpg"
+          alt="A photo taken from above of the Xochipilli Park in Celaya, Mexico."
+        />
+        <div class="activity-text">
+          <h2>Xochipilli Park</h2>
+          <h3>Great for family picnics and weekend strolls.</h3>
+        </div>
+      </div>
+    </div>
+    <div id="guide">
+      <div id="guide-card">
+        <img
+          id="guide-image-eduardo"
+          src="./images/eduardo_foto.jpeg"
+          alt="A photo of Eduardo facing the camera with a smile."
+        />
+        <div class="guide-text">
+          <h3>Your guide</h3>
+          <p>
+            “I have lived all my childhood in Celaya, so I can show you all
+            there is to know about the city.”
+          </p>
+          <h4>Eduardo Hernández</h4>
+        </div>
       </div>
     </div>
   </body>

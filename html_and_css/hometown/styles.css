@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .chapel-background {
   background: url(./images/celaya_iglesia.jpg);
   background-size: cover;
@@ -13,6 +17,7 @@
 
 .hero-text {
   display: flex;
+  margin-bottom: 50px;
   flex-direction: column;
   align-items: center;
 }
@@ -35,7 +40,7 @@
 }
 
 .hero-description {
-  margin-top: 0px;
+  margin: 0 0;
   padding: 8px 15px;
 
   border-radius: 15px;
@@ -66,6 +71,108 @@
   text-underline-position: from-font;
 }
 
-body {
-  margin: 0;
+#activities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf0d5;
+  padding: 100px 60px;
+}
+
+.activity-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin: 0 20px;
+  max-width: 300px;
+}
+
+.activity-image-circle {
+  border-radius: 200px;
+  border: 8px solid #3a3335;
+
+  width: 247px;
+  height: 254px;
+  flex-shrink: 0;
+  aspect-ratio: 247/254;
+}
+
+.activity-text h2 {
+  color: #3a3335;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.activity-text h3 {
+  color: #3a3335;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#guide {
+  background-color: #e89968;
+  padding: 100px 200px;
+}
+
+#guide-image-eduardo {
+  width: 250px;
+  border-radius: 15px;
+}
+
+#guide-card {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 80px;
+  border-radius: 20px;
+  background: #756a5b;
+  box-shadow: 0 4px 4px 0 #000;
+}
+
+.guide-text {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.guide-text h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.guide-text p {
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.guide-text h4 {
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
 }
