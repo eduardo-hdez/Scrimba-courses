@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <div id="counter">
+      <div class="score-container">
+        <h1 class="teams">HOME</h1>
+        <h2 class="num-score font-cursed">0</h2>
+        <button class="btn-num font-cursed" onclick="addOneHome()">+1</button>
+        <button class="btn-num font-cursed" onclick="addTwoHome()">+2</button>
+        <button class="btn-num font-cursed" onclick="addThreeHome()">+3</button>
+      </div>
+      <div class="score-container">
+        <h1 class="teams">GUEST</h1>
+        <h2 class="num-score font-cursed">0</h2>
+        <button class="btn-num font-cursed" onclick="addOneGuest()">+1</button>
+        <button class="btn-num font-cursed" onclick="addTwoGuest()">+2</button>
+        <button class="btn-num font-cursed" onclick="addThreeGuest()">
+          +3
+        </button>
+      </div>
+    </div>
+    <div id="reset-container">
+      <button class="btn-reset" onclick="resetHome()">Reset HOME</button>
+      <button class="btn-reset" onclick="resetGuest()">Reset GUEST</button>
+    </div>
+    <div id="reset-all-container">
+      <button id="btn-new-game" onclick="newGame()">NEW GAME</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
